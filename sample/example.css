@@ -1,0 +1,17 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: 0;
+}
+header{
+	width: 10%;
+}
+header .hedline{
+	font-size: 22px;
+}
+nav{
+	text-align: center;
+}
+.list{
+	padding-left: 40px;
+}
