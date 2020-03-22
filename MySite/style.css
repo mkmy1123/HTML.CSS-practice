@@ -56,18 +56,108 @@ a{
 }
 .container{
 	width: 100%;
-	background-color: #ECEFF1;
-	height: 3000px;
 }
+
+.container:nth-child(odd){
+	background-color: #ECEFF1;
+}
+
+.container:nth-child(even){
+	background-color: #FFFFFF;
+}
+
 .portfolio{
 	width: 920px;
 	margin: 0 auto;
+	text-align: center;
 }
 
+h3{
+	padding-top: 90px;
+	font-size: 32px;
+	color:#000000;
+	position: relative;
+}
+h3:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;/*線の上下位置*/
+  display: inline-block;
+  width: 70px;/*線の長さ*/
+  height: 3px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #EC715F;/*線の色*/
+  border-radius: 2px;/*線の丸み*/
+}
+p{
+	font-size: 16px;
+	padding: 30px 0 ;
+}
+.photo_container{
+	width: 920px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+.box{
+	width: 300px;
+	height: 250px;
+	float:left;
+	background-position: center;
+	background-size: cover;
+}
+.box:nth-child(1){
+	background-image: url(img/sketch.jpg);
+	margin-right: 10px;
+}
+.box:nth-child(2){
+	background-image: url(img/websuku.png);
+	margin-right: 10px;
+}
+.box:nth-child(3){
+	background-image: url(img/write.jpg);
+}
+.box:nth-child(4){
+	background-image: url(img/webcamp.png);
+	margin-right: 10px;
+	margin-top: 10px;
+}
+.box:nth-child(5){
+	background-image: url(img/talk.jpg);
+	margin-right: 10px;
+	margin-top: 10px;
 
+}
+.box:nth-child(6){
+	background-image: url(img/webcamp-mother.png);
+	margin-top: 10px;
+}
 
-
-
-
+.feature{
+	width: 980px;
+	margin: 0 auto;
+	text-align: center;
+	padding-bottom: 90px;
+}
+.content-box{
+	width:320px;
+	float:left;
+}
+.content-box:nth-child(2){
+	margin: 0 10px;
+}
+.content-box i{
+	font-size: 60px;
+}
+.body{
+	font-size: 16px;
+	text-align: left;
+	padding: 0;
+}
+.title{
+	font-size: 20px;
+	padding: 10px 0;
+}
 
 
