@@ -32,7 +32,7 @@ li{
 	line-height: 70px;
 	font-size: 16px;
 }
-a{
+.menu a{
 	color: #FAFAFA;
 	text-decoration: none;
 }
@@ -160,4 +160,47 @@ p{
 	padding: 10px 0;
 }
 
+.profile{
+	text-align: center;
+	width: 1024px;
+	margin: 0 auto;
+}
+.profilebox{
+	width: 512px;
+	float:left;
+	margin-bottom: 90px;
+}
+.profilebox h4{
+	text-align: left;
+	font-size: 20px;
+	padding-top: 0;
+}
+.profilebox p{
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
 
+.icon{
+	border-radius: 50%;
+}
+
+.contact{
+	text-align: center;
+	width: 800px;
+	margin: 0 auto;
+}
+.contactbox{
+	width:400px;
+	float: left;
+	margin: 0 auto;
+}
+.contactbox h4{
+	font-size: 20px;
+	padding-top: 0;
+	display: table;
+}
+.contactbox a{
+	display: table;
+	color:#000000;
+}
