@@ -186,21 +186,29 @@ p{
 }
 
 .contact{
-	text-align: center;
 	width: 800px;
 	margin: 0 auto;
 }
+.contact p,h3{
+	text-align: center;
+}
 .contactbox{
-	width:400px;
+	width:50%;
 	float: left;
-	margin: 0 auto;
+	margin:0 auto;
 }
 .contactbox h4{
 	font-size: 20px;
 	padding-top: 0;
-	display: table;
+	display: inline-block;
+	text-align: left;
 }
-.contactbox a{
-	display: table;
+.minicontact{
+	width: 140px;
+	margin:0 auto;
+}
+#link{
+	display: inline-block;
+	text-align: left;
 	color:#000000;
 }
