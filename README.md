@@ -3,4 +3,4 @@
 * dotinstall等、勉強サイトの成果物<br>
 * Git練習用に意味もなくたくさんブランチ切ってみてます<br>
 * コミットメッセージも練習中です<br>
-* DMMWEBCAMP在籍中
+* DMMWEBCAMP在籍中<br>
