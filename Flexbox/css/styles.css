@@ -1,0 +1,49 @@
+
+html{
+	height: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+header {
+  background: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn{
+  width: 100px;
+  height: 50px;
+  margin: 20px;
+  background: skyblue;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+main {
+  background: skyblue;
+  flex: 1;
+}
+
+nav{
+	background: tomato;
+	width: 100px;
+	order: -1;
+}
+
+aside {
+  background: orange;
+  width: 100px;
+}
+
+footer {
+  background: silver;
